@@ -63,10 +63,7 @@ public class DirectionsJSONParser {
         return routes;
     }
 
-    /**
-     * Method to decode polyline points
-     * Courtesy : http://jeffreysambells.com/2010/05/27/decoding-polylines-from-google-maps-direction-api-with-java
-     * */
+    // Method to decode polyline points
     private List decodePoly(String encoded) {
 
         List poly = new ArrayList();
